@@ -1,5 +1,5 @@
 package ödev1;
-
+// Phase 0: Initial Version
 public class NotificationService {
     public void send(String type, String message, String receiver) {
         if (type.equalsIgnoreCase("SMS")) {
